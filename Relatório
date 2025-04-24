@@ -1,0 +1,68 @@
+Estrutura do Projeto 
+
+O projeto foi dividido em duas partes principais: Back_end e Front_end. 
+
+Backend (API): 
+
+Tecnologia: FastAPI 
+
+Funcionalidade: A API ficou responsável por gerenciar os usuários, oferecendo endpoints para criação, edição, listagem  e deletar usuários. 
+
+Dependências: 
+
+FastApi: Framework para construção de APIs. 
+
+Sqlalchemy: ORM para interagir com o banco de dados. 
+
+Uvicorn: Servidor ASGI para rodar a aplicação FastAPI. 
+
+Pydantic: Para validação e serialização de dados. 
+
+Banco de Dados: Utiliza o banco de dados relacional MySQL/PostgreSQL para armazenar informações de usuários. 
+
+Frontend: 
+
+Tecnologia: React (com styled-components para estilização) 
+
+Funcionalidade: A interface do usuário permite que os usuários vejam uma lista de usuários, possam editar e deletar usuários. 
+
+Dependências: 
+
+react: Biblioteca para construção da interface. 
+
+react-router-dom: Para gerenciamento de rotas. 
+
+axios: Para fazer requisições à API. 
+
+styled-components: Para estilização da interface. 
+
+ 
+
+Tecnologias Utilizadas 
+
+Backend: 
+
+FastAPI: Framework moderno, rápido e fácil de usar para criação de APIs. 
+
+SQLAlchemy: ORM para facilitar a interação com o banco de dados. 
+
+Uvicorn: Servidor para rodar a aplicação FastAPI. 
+
+Frontend: 
+
+React: Biblioteca JavaScript para construção da interface de usuário. 
+
+React Router: Para navegação entre páginas. 
+
+Styled-Components: Para aplicar estilos CSS dentro dos componentes React. 
+
+Axios: Para realizar as requisições HTTP para a API. 
+
+
+
+Para executar a aplicação dividiremos em duas pequenas etapas: 
+1-Etapa: 
+
+Será necessário estar dentro da pasta do back-end(FastApi), onde deverá haver a criação de um ambiente virtual, seguido de sua ativação, instalações das dependências necessárias e por último rodando a aplicação FastApi com o Uvicorn. 
+2-Etapa: 
+Agora navegando para dentro da pasta do Front_End , também será necessário a instalação das pendências e seguido para a iniciação do servidor de desenvolvimento do React. 
